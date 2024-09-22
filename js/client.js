@@ -1,5 +1,5 @@
 
-const socket=io('http://localhost:8000');
+const socket=io('http://localhost:8000' || 'https://chat-app-lcee.vercel.app/');
 
 
 var audio=new Audio('new-notification-7-210334.mp3');

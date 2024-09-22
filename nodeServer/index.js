@@ -1,7 +1,7 @@
 //node server which will handle socket.io
 const io = require('socket.io')(8000,{
     cors: {
-        origin: "http://127.0.0.1:5500", // Replace with your frontend's origin
+        origin: "http://127.0.0.1:5500 || https://chat-app-lcee.vercel.app/", // Replace with your frontend's origin
         methods: ["GET", "POST"]
     }
 })
